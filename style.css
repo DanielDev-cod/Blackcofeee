@@ -8,13 +8,6 @@ body {
   color: var(--preto);
 }
 header{
-  width: 100%;
-  height: 120vh;
-  background-image: url(assets/banner/Banner.png);
-  margin: 0;
-  padding: 0;
-}
-.topo{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,10 +16,14 @@ header{
   
 }
 .header{
-  
-  background-repeat: no-repeat;
   width: 100%;
-  height: 500;
+  height: 90%;
+  margin: 0;
+   padding: 0;
+  background-image: url(assets/banner/Banner.png);
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
 }
 button{
   appearance: none;
