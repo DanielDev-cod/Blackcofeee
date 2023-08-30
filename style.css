@@ -1,15 +1,43 @@
 :root {
   --branco: #ffffff;
   --preto:  #0B1D03;
+  --Café:   #A0996C;
 }
 
 body {
   color: var(--preto);
 }
+header{
+  width: 100%;
+  height: 120vh;
+  background-image: url(assets/banner/Banner.png);
+  margin: 0;
+  padding: 0;
+}
+.topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-elements{
+  
+}
+.header{
+  
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500;
+}
+button{
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 main {
   width: 100%;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
