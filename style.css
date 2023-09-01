@@ -1,17 +1,18 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:wght@700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --branco: #ffffff;
   --preto:  #0B1D03;
   --Café:   #A0996C;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   color: var(--preto);
-  margin: 0;
-}
-header{
- display: flex;
- align-items: center;
- justify-content: space-between;
 }
 button{ 
   appearance: none;
@@ -20,11 +21,90 @@ button{
   background-color: transparent;
   cursor: pointer;
 }
+.text-blac{
+
+  justify-content: center;
+  color: var(--branco);
+  font-size: 28px;
+  font-family: 'Playfair Display', serif;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  justify-content: space-between;
+}
+.center{
+  margin: 0px;
+  padding: 25px;
+  
+}
+.barra-menu{
+  align-items: flex-start;
+  position: absolute;
+  font-size: 32px;
+  left: 90px;
+  top: 135px;
+  color: var(--branco); 
+}
 .container{
   background-image: url(assets/banner/Banner.png);
   width: 100%;
   height: 700px;
   top: 2px;
 }
+
+#texto{
+  position: absolute;
+  padding: 0;
+  font-size: 40px;
+  left: 100px;
+  top: 200px;
+  color: var(--branco); 
+}
+.quebra{
+  flex-wrap: wrap;
+  display: flex;
+  width: 500px;
+  top: 300px;
+}
+.text-1{
+  color: var(--branco);
+  opacity: 0.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  top: 120px;
+}
+.seta{
+  position: absolute;
+  left: 110px;
+  top: 550px;
+}
+.seta-2{
+  position: absolute;
+  left: 180px;
+  top: 550px;
+}
+.banner-title {
+  top: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cafe{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+.cafe > img{
+  height: 500px;
+}
+.cafe-texto > h1{
+  color:var(--preto);
+}
+
 
 
