@@ -6,6 +6,7 @@
   --branco: #ffffff;
   --preto:  #0B1D03;
   --Café:   #A0996C;
+  --card:   #F7F1E6;
 }
 *{
   margin: 0;
@@ -70,9 +71,9 @@ button{
 }
 .text-1{
   color: var(--branco);
-  opacity: 0.5;
+  opacity: 80%;
   font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  font-size: 27px;
   top: 120px;
 }
 .seta{
@@ -85,26 +86,25 @@ button{
   left: 180px;
   top: 550px;
 }
-.banner-title {
-  top: 300px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container-2 {
+    margin: 50px 50px;
+    display: flex;
+    gap: 40px;
 }
-.cafe{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 200px;
+.container-2 > img{
+  width: 1050px;
 }
-.cafe > img{
-  height: 500px;
-}
-.cafe-texto > h1{
-  color:var(--preto);
-}
+.content h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: var(--preto);
 
+}
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    width: 470px;
+    font-size: 28px;
+    top: 350px;
+}
 
 
