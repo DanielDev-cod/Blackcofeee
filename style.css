@@ -129,7 +129,6 @@ button{
 .container-3{
   border: 1px solid red;
   display: flex;
-  position: absolute;
   justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
