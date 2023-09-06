@@ -9,6 +9,7 @@
   --Café:   #A0996C;
   --card:   #F7F1E6;
   --grei:   #969696;
+  --cafe-1: #FFFCF6;
 }
 *{
   margin: 0;
@@ -25,7 +26,6 @@ button{
   cursor: pointer;
 }
 .text-blac{
-
   justify-content: center;
   color: var(--branco);
   font-size: 28px;
@@ -40,7 +40,6 @@ button{
 .center{
   margin: 0px;
   padding: 25px;
-  
 }
 .barra-menu{
   align-items: flex-start;
@@ -127,7 +126,6 @@ button{
   color: #A0996C;
 }
 .container-3{
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -174,5 +172,50 @@ button{
   display: block;
   padding: 12px;
 }
+.Services{
+  justify-content: space-between;
+  max-width: 100%;
+  display: flex;
+  padding: 70px;
+}
+.Services > p{
+  align-items: center;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+.container-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  background-image: url(assets/coffee/cafe\ 3.png);
+  background-size: cover;
+  width: 500px;
+  height: 450px;
+}
+
+.container-4--img2{
+  background-image: url(assets/coffee/cafe\ 4.png);
+}
+.container-4 > h2{
+  font-size: 46px;
+  color: var(--branco);
+}
+.container-4 > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+ color:var(--cafe-1)
+
+}
+
+.titulo-loja{
+  margin: 26px;
+  font-size: 30px;
+  font-family: Playfair Display;
+}
+
 
 
