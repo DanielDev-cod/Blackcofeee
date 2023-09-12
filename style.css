@@ -211,11 +211,44 @@ button{
 
 }
 
+.busca{
+  width: 1300px;
+  margin: auto;
+  background-color: var(--preto);
+}
+
 .titulo-loja{
   margin: 26px;
   font-size: 30px;
   font-family: Playfair Display;
 }
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.label-input{
+  flex: 1;
+  border: 2px solid var(--preto);
+  padding: 0px 20px ;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.label-input > input,
+.label-input > select{
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+}
+.label-input-2{
+ flex: 2;
+}
+
 
 
 
