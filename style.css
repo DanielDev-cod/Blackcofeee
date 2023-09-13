@@ -17,6 +17,7 @@
 }
 body {
   color: var(--preto);
+  background-color: var(--cafe-1);
 }
 button{ 
   appearance: none;
@@ -87,24 +88,35 @@ button{
   left: 180px;
   top: 550px;
 }
-.container-2 {
-    background-color: var(--branco);
-    margin: 50px;
-    display: flex;
-    gap: 110px;
+.dastaque{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
-.container-2 > img1{
-  margin: 24px;
-  width: 704px;
-  height: 560px;
+.container-2 {
+    background-color: var(--cafe-1);
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 30px;
 }
 .img{
-  width: 704px;
-  height: 560px;
-  left: 1250px;
+  flex: 1;
+}
+.img > img{
+  width: 100%;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
 .content h2{
   font-family: 'Playfair Display', serif;
+  width: 470px;
   font-size: 50px;
   color: var(--preto);
 
@@ -115,9 +127,13 @@ button{
     font-size: 28px;
     top: 350px;
 }
+.Variedades{
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 150px;
+}
 .titulo{
-  width: 460px;
-  padding-left: 5%;
+  margin-bottom: 50px;
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 950px;
@@ -172,14 +188,29 @@ button{
   display: block;
   padding: 12px;
 }
-.Services{
+.services{
+  margin-top: 100px;
+}
+.services-icon{
   justify-content: space-between;
   max-width: 100%;
   display: flex;
   padding: 70px;
 }
-.Services > p{
-  align-items: center;
+.services-icon div{
+  background-color: red;
+  flex: 1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.services-icon  p{
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  
 }
 .cards{
   display: flex;
@@ -212,14 +243,18 @@ button{
 }
 
 .busca{
-  width: 1300px;
-  margin: auto;
-  background-color: var(--preto);
+  background-color: var(--branco);
+  margin-top: 150px;
+  padding: 0 calc((100% - 1200px) / 2);
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 1200px;
 }
 
 .titulo-loja{
-  margin: 26px;
-  font-size: 30px;
+  font-size: 45px;
   font-family: Playfair Display;
 }
 
@@ -247,6 +282,9 @@ button{
 }
 .label-input-2{
  flex: 2;
+}
+.map{
+  width: 100%;
 }
 
 
