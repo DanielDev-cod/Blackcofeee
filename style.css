@@ -10,6 +10,7 @@
   --card:   #F7F1E6;
   --grei:   #969696;
   --cafe-1: #FFFCF6;
+  --footer: #1F1F1F;
 }
 *{
   margin: 0;
@@ -30,8 +31,10 @@ button{
   justify-content: center;
   color: var(--branco);
   font-size: 28px;
+  font-weight: 700;
   font-family: 'Playfair Display', serif;
 }
+
 .nav-bar{
   display: flex;
   align-items: center;
@@ -136,7 +139,7 @@ button{
   margin-bottom: 50px;
   font-family: 'Playfair Display';
   font-style: normal;
-  font-weight: 950px;
+  font-weight: 950;
   font-size: 36px;
   line-height: 60px;
   color: #A0996C;
@@ -198,7 +201,6 @@ button{
   padding: 70px;
 }
 .services-icon div{
-  background-color: red;
   flex: 1;
    display: flex;
    flex-direction: column;
@@ -255,7 +257,7 @@ button{
 
 .titulo-loja{
   font-size: 45px;
-  font-family: Playfair Display;
+  font-family: 'Playfair Display';
 }
 
 .form{
@@ -286,6 +288,59 @@ button{
 .map{
   width: 100%;
 }
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cafe-1);
+}
+.container-5{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.cofeeeee{
+  font-family: 'Playfair Display';
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.base h2{
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  color: var(--footer);
+  margin: 10px 0 10px 0;
+}
+.li{
+  text-decoration: none ;
+}
+.creditos{
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 20px 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+.creditos p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.logo{
+  margin: 2px;
+  margin-left: 6px;
+  width: 110px;
+}
+
 
 
 
